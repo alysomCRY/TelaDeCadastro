@@ -1,0 +1,7 @@
+.register-div {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    height: 280px;
+    background-color: #d64242
+}

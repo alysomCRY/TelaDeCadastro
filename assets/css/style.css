@@ -1,0 +1,22 @@
+@import url("container.css");
+@import url("address.css");
+@import url("register.css");
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+:root {
+    --font: "Jura";
+    --dark-silver: #63899C;
+    --light-silver: #95B5C3;
+    --button: #24A8CE;
+}
+body {
+    display: flex;
+    background-image: url("/imgs/backgroundImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    font-family: var(--font);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
