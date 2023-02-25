@@ -1,0 +1,80 @@
+.address {
+    width: 460px;
+    height: 480px;
+    
+    padding-top: 40px;
+}
+.address input {
+    width: 460px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0,3);
+    background-color: var(--light-silver);
+    outline: 0;
+    font-family: var(--font);
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 6px;
+}
+.address h1 {
+    margin-bottom: 44px;
+}
+.address-block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    width: 460px;
+    height: 230px;
+    
+    padding-bottom: 42px;
+}
+.address-block1 label {
+    display: flex;
+    font-weight: 400;
+    padding-bottom: 6px;
+    font-size: 1.1rem;
+    text-align: start;
+    font-weight: bold;
+}
+.address-block2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px 10px;
+    position: relative;
+    width: 460px;
+    margin-top: 72px;
+    text-align: start;
+}
+.address-block2 label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.address-block2 input {
+    width: 225px;
+    height: 40px;
+}
+.address-block2 select {
+    width: 225px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--light-silver);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0,3);
+}
+.address-block2 .state option {
+    font-weight: bold;
+    font-family: var(--font);
+}
+.address-block2 .state select {
+    text-align: center;
+    font-family: var(--font);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.address-block2 .number, .complement, .city, .state {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
