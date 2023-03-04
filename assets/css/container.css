@@ -48,7 +48,7 @@
 .template {
   display: none;
 }
-.error {
+#error {
   color: white;
   font-weight: bold;
   font-size: 1rem;

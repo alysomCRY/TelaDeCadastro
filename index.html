@@ -45,16 +45,16 @@
             <div class="address-block1">
                 <div class="zip-code">
                   <label for="zip-code">CEP</label>
-                  <input class="zip-code" name="zip-code" type="number" />
-                  <div id="error" >teste</div>
+                  <input id="zip-code" class="zip-code" name="zip-code" type="number" />
+                  <div id="error" ></div>
                 </div>
                 <div class="address-div">
                   <label for="address">Endereço</label>
-                  <input class="address" name="address" type="text" />
+                  <input id="address" class="address" name="address" type="text" />
                 </div>
                 <div class="block">
                   <label for="block">Bairro</label>
-                  <input class="block" name="block" type="text" />
+                  <input id="block" class="block" name="block" type="text" />
                 </div>
             </div>
             <div class="address-block2">
@@ -68,11 +68,11 @@
                 </div>
                 <div class="city">
                   <label for="city">Cidade</label>
-                  <input class="city" name="city" type="text" />
+                  <input id="city" class="city" name="city" type="text" />
                 </div>
                 <div class="state">
                   <label class="select" for="state">UF</label>
-                  <select class="state" name="state">
+                  <select id="state" class="state" name="state">
                     <option value="AC">Acre</option>
                     <option value="AL">Alagoas</option>
                     <option value="AP">Amapá</option>
@@ -111,5 +111,6 @@
     </form>
     <p class="error-validation template"></p>
     <script src="js/index.js"></script>
+    <script src="js/api.js"></script>
   </body>
 </html>
